@@ -1,0 +1,157 @@
+html,
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+
+  background-color: #f2f7f4;
+  /* color: #fff; */
+  font-family: sans-serif;
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  /* color: #fff; */
+  font-size: 12px;
+  padding: 5px 3px;
+  height: 35px;
+  width: 50vw;
+}
+
+#myCustomInput {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 12px;
+
+  margin: 10px;
+  height: 35px;
+  width: 40%;
+}
+
+.myCustomEmails {
+  border-style: none;
+  border-radius: 5px;
+  font-size: 12px;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+
+  margin-right: 5px;
+  background-color: #b7bdb9;
+  padding: 5px;
+}
+
+/* .myCustomEmails:after {
+  display: inline-block;
+  content: "\00d7"; /* This will render the 'X' 
+} */
+
+.myCustomerrorEmail {
+  border-style: none;
+  border-radius: 5px;
+  font-size: 12px;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  margin-right: 5px;
+  background-color: #f2c3bf;
+  border-color: #c72416;
+  color: #c72416;
+  padding: 5px;
+  /* display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+  align-content: center; */
+}
+
+.myExcl {
+  padding: 3px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #c72416;
+  border-color: #c72416;
+  color: #fff;
+  text-align: center;
+}
+
+#textarea {
+  height: 40px;
+  width: 50vw;
+  /* overflow-y: scroll; */
+  margin-top: 0;
+  background-color: #fff;
+  color: black;
+  font-size: 12px;
+  /* display: flex;
+  flex-direction: row; */
+  display: inline;
+  vertical-align: middle;
+}
+#textarea:focus {
+  border-style: none;
+}
+
+select {
+  width: 50vw;
+  height: 50vh;
+  margin-bottom: 0;
+  overflow-y: scroll;
+}
+span {
+  height: 20px;
+  display: inline;
+
+  border-style: none;
+  border-radius: 5px;
+  font-size: 12px;
+
+  margin-bottom: 30px;
+  margin-right: 5px;
+
+  padding: 5px;
+}
+
+[contenteditable] {
+  background: #eee;
+  padding-top: 10px;
+}
+
+[data-placeholder]:empty:before {
+  content: attr(data-placeholder);
+  color: #888;
+  font-size: 16px;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+  align-content: center;
+  /* align-items: center; */
+}
+
+#textarea > span {
+  margin: 5px 5px;
+}
+
+.myCustomerrorEmail {
+  background-color: #f2c3bf;
+  border-color: #c72416;
+  color: #c72416;
+}
+
+b {
+  font-weight: 700;
+}
+
+select > option {
+  margin: 10px 5px;
+}
+
+select option:hover {
+  background-color: aquamarine;
+}
