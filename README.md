@@ -35,7 +35,7 @@ To run backend and frontend sepeartely, use the follwing commands,
 
 ### Screenshots
 
-![screenshot-1](/Screenshot-1.png)
+![screenshot-1](https://raw.githubusercontent.com/datrivedi/Emaildistributer/Screenshot-1.png)
 
 ![screenshot-2](/Screenshot-2.png)
 
